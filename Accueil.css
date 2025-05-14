@@ -1,0 +1,54 @@
+.accueil {
+    padding-top: 80px;
+   
+    min-height: 100vh;
+
+    background-image: url('../image/aiillustration.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+.accueil-content {
+    max-width: 50%;
+    margin-top: -1rem;
+   
+}
+
+.accueil-content h1 {
+    color: #00c6ff;
+    font-size: 3rem;
+    margin-bottom: 0.3rem;
+    
+}
+
+.accueil-content h2 {
+    color: #00c6ff;
+    font-size: 2rem;
+    margin-top: 0;
+   
+}
+
+.accueil-content h6 {
+    margin: 1rem 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
+
+.accueil-content button {
+    padding: 0.8rem 1.5rem;
+    background-color: #00c6ff;
+    border: none;
+    border-radius: 20px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
